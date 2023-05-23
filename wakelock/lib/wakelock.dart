@@ -24,7 +24,6 @@ WakelockPlatformInterface get _defaultPlatformInstance {
   // web.
   if (kIsWeb) return WakelockPlatformInterface.instance;
 
-
   return WakelockPlatformInterface.instance;
 }
 
